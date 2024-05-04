@@ -511,3 +511,9 @@ aiida-muon:
   code_home: https://github.com/positivemuon/aiida-muon
   version_file: https://github.com/positivemuon/aiida-muon/blob/main/aiida_muon/__init__.py
   pip_url: git+https://github.com/positivemuon/aiida-muon
+aiida-quantum-transport:
+  entry_point_prefix: quantum_transport
+  plugin_info: https://raw.githubusercontent.com/edan-bainglass/aiida-quantum-transport/main/pyproject.toml
+  code_home: https://github.com/edan-bainglass/aiida-quantum-transport
+  version_file: https://github.com/edan-bainglass/aiida-quantum-transport/blob/main/src/aiida_quantum_transport/__init__.py
+  pip_url: aiida-quantum-transport
